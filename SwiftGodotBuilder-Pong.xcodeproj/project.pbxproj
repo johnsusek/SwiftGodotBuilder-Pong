@@ -12,6 +12,7 @@
 		52452B5A2E629BBD0081FE1A /* SwiftGodot in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 523B0B142E629A5100A29AEE /* SwiftGodot */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		52452B6C2E629C720081FE1A /* SwiftGodotBuilder in Frameworks */ = {isa = PBXBuildFile; productRef = 52452B6B2E629C720081FE1A /* SwiftGodotBuilder */; };
 		52452B6E2E629EFB0081FE1A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 52452B6D2E629EF60081FE1A /* .gitignore */; };
+		52452B702E62A9DE0081FE1A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52452B6F2E62A9D90081FE1A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		523B0B042E629A1200A29AEE /* SwiftGodotBuilder-Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftGodotBuilder-Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52452B6D2E629EF60081FE1A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		52452B6F2E62A9D90081FE1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -58,6 +60,7 @@
 		523B0AFB2E629A1200A29AEE = {
 			isa = PBXGroup;
 			children = (
+				52452B6F2E62A9D90081FE1A /* README.md */,
 				52452B6D2E629EF60081FE1A /* .gitignore */,
 				523B0B062E629A1200A29AEE /* SwiftGodotBuilder-Pong */,
 				523B0B052E629A1200A29AEE /* Products */,
@@ -146,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52452B702E62A9DE0081FE1A /* README.md in Resources */,
 				52452B6E2E629EFB0081FE1A /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
