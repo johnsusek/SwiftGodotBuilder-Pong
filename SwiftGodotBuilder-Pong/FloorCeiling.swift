@@ -12,8 +12,8 @@ func FloorCeiling(bounceDirection: Int) -> GNode<Area2D> {
   floorShape.size = Vector2(x: 640, y: 32)
 
   return
-    Area2D$ {
-      CollisionShape2D$().shape(floorShape)
+    Area2D$("FloorCeiling") {
+      CollisionShape2D$("FloorCeilingCollision").shape(floorShape)
     }
     .on(\.areaEntered) { _, area in
       if let area = area as? PongBall {

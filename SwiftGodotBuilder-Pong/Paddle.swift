@@ -7,8 +7,8 @@ func Paddle(_ name: String) -> GNode<PongPaddle> {
 
   return
     GNode<PongPaddle>(name) {
-      Sprite2D$().texture("paddle.png")
-      CollisionShape2D$().shape(paddleShape)
+      Sprite2D$("PaddleTexture").texture("paddle.png")
+      CollisionShape2D$("PaddleCollision").shape(paddleShape)
     }
     .on(\.areaEntered) { paddle, area in
       guard let area = area as? PongBall else { return }
